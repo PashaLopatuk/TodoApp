@@ -1,0 +1,89 @@
+.TodoList {
+    margin-block: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.TodoList .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.TodoList .item .case {
+    max-width: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.TodoList .item .edit {
+    
+}
+.TodoList .item .edit input {
+    background-color: rgba(0,0,0,0);
+    color: #ddd;
+    outline: 0;
+    font-size: 2vw;
+    font-family: monospace;
+    cursor: text;
+}
+.TodoList .item .edit button {
+    background-color: rgba(0,0,0,0);
+    color: #ddd;
+    cursor: pointer;
+}
+
+.TodoList .item .case .title {
+    width: 80%;
+    text-align: start;
+    color: #ddd;
+
+    font-size: 2vw;
+    font-family: monospace;
+    background-color: rgba(0,0,0,0);
+    cursor: text;
+}
+
+.TodoList .item .case .buttons-case {
+    display: flex;
+    gap: .5vw;
+}
+
+.TodoList .item .case .delete-button img {
+    max-width:  2.2vw;
+    max-height: 2.2vw;
+}
+
+.TodoList .item .case .delete-button {
+    background-color: rgba(0,0,0,0);
+    
+}
+.TodoList .item .case .edit-button {
+    background-color: rgba(0,0,0,0);
+}
+.TodoList .item .case .edit-button img {
+    max-width:  2.2vw;
+    max-height: 2.2vw;
+}
+.TodoList .item .case .checked {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.TodoList .item .case .checked:checked{
+    background-color: #2a2a2a;
+}

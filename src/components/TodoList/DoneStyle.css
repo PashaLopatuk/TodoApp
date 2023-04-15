@@ -1,0 +1,11 @@
+.TodoList .item .case .done {
+    width: 80%;
+    text-align: start;
+    color: #6a6a6a;
+
+    font-size: 2vw;
+    font-family: monospace;
+    background-color: rgba(0,0,0,0);
+
+    text-decoration:line-through;
+}

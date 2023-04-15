@@ -1,0 +1,8 @@
+.header {
+    /* background-color: black; */
+}
+.header .title {
+    padding-block: 1.5vw;
+    font-size: 2.6vw;
+    font-weight: 800;
+}

@@ -1,0 +1,35 @@
+.AddTodo {}
+.AddTodo .create-form {}
+.AddTodo .create-form input {
+    background-color: #ddd;
+    color: #2a2a2a;
+    font-size: 2vw;
+    line-height: 2.4vw;
+    border-radius: 50px;
+    /* transition: .6s all; */
+    color: #333;
+    padding-left: 1vw;
+    font-family: monospace;
+    cursor: text;
+}
+
+.AddTodo .create-form input:focus {
+    transition: .3s all;
+    background-color: #eee;
+    outline-width: 0;
+
+    box-shadow: 2px 4px 6px 2px #000;
+}
+.AddTodo .create-form input::placeholder {
+    /* padding-left: 1vw; */
+}
+.AddTodo .create-form input::content {
+    padding-left: 1vw;
+}
+
+.AddTodo .create-form button {
+    background-color: rgba(0,0,0,0);
+    color: #eeeeee;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
